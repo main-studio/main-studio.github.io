@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Proteus系列教程01_新建工程</title>
+      <link href="/posts/3d58bbbd.html"/>
+      <url>/posts/3d58bbbd.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>在嵌入式学习的过程中少不了对电路的仿真，俗话说万事开头难，本篇将解决电路仿真的第一难关——如何在 Proteus 中新建工程。</p><span id="more"></span><h2 id="Proteus-8-15-版本"><a href="#Proteus-8-15-版本" class="headerlink" title="Proteus 8.15 版本"></a>Proteus 8.15 版本</h2><p>本套系列教程基于 Proteus 8.15 版本，为了方便大家的学习，博主编写了软件的图文安装教程，请点击下方链接跳转进行安装。</p><blockquote><p>Proteus 8.15 图文安装教程 &gt;&gt; <a href="https://mp.weixin.qq.com/s/pG8UpBzyEXkDS0r3fkTgRg">点击跳转</a></p></blockquote><h2 id="Proteus-新建工程"><a href="#Proteus-新建工程" class="headerlink" title="Proteus 新建工程"></a>Proteus 新建工程</h2><p>1.双击 Proteus 图标，进入软件界面。</p><p><img src="https://s2.loli.net/2023/03/14/a5jOLf8d7ycFSh3.png" alt="Proteus 中新建工程_图1"></p><p>2.在软件界面的菜单栏中找到并点击“ <strong>File</strong> ”，在下拉框中找到并点击“ <strong>New Project</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/14/SohN5YGf3t9lWv1.png" alt="Proteus 中新建工程_图2"></p><p>3.在“ <strong>Name</strong> ”文本框中输入工程的名称，点击“ <strong>Browse</strong> ”选择工程文件的保存路径，最后点击“ <strong>Next</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/14/O6acQ372iZGPomK.png" alt="Proteus 中新建工程_图3"></p><p>4.点击“ <strong>Create a schematic from the selected template.</strong> ”，点击“ <strong>DEFAULT</strong> ”，点击“ <strong>Next</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/14/XND9inZOtW4Vgyd.png" alt="Proteus 中新建工程_图4"></p><p>5.点击“ <strong>Do not create a PCB layout.</strong> ”，点击“ <strong>Next</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/14/juBoqsPhcgeiWLZ.png" alt="Proteus 中新建工程_图5"></p><p>6.工程固件的选择，如果是纯粹的数字电路或者模拟电路的仿真，建议如下图选择“ <strong>No Firmware Project</strong> ”；如果是单片机项目的仿真，只使用外部的程序编辑器，比如 Keil-C51、MDK-ARM 之类的，同样建议选择“ <strong>No Firmware Project</strong> ”，然后点击“ <strong>Next</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/14/l7u6OySAXaR4Tio.png" alt="Proteus 中新建工程_图6"></p><p>7.点击“ <strong>Finish</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/14/k2Bl1sOgtRhnUTZ.png" alt="Proteus 中新建工程_图7"></p><p>8.工程创建完成，后面根据需要放置元器件就可以啦。</p><p><img src="https://s2.loli.net/2023/03/14/uBd26rkZVYpnvD3.png" alt="Proteus 中新建工程_图8"></p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>至此，在 Proteus 中新建工程就完成啦。</p><p><strong>后续我会持续更新 Proteus 相关教程，爱学习的你一定不要错过哦。</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Proteus系列教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Proteus </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最新版 Proteus 8.15 Professional 图文安装教程（附安装包）</title>
+      <link href="/posts/e7371c22.html"/>
+      <url>/posts/e7371c22.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>Proteus 是世界上唯一将电路仿真软件、PCB设计软件和虚拟模型仿真软件三合一的设计平台。</p><p>本篇博主将手把手带领大家安装最新版 Proteus 8.15。</p><span id="more"></span><blockquote><p>若图片加载超时，可点此链接跳转进行阅读。</p><p><a href="https://mp.weixin.qq.com/s/pG8UpBzyEXkDS0r3fkTgRg">https://mp.weixin.qq.com/s/pG8UpBzyEXkDS0r3fkTgRg</a></p></blockquote><h2 id="介绍-Proteus"><a href="#介绍-Proteus" class="headerlink" title="介绍 Proteus"></a>介绍 Proteus</h2><p>Proteus 软件是英国 Lab Center Electronics 公司出版的 EDA 工具软件。它不仅具有其它 EDA 工具软件的仿真功能，还能仿真单片机及外围器件。它是比较好的仿真单片机及外围器件的工具。</p><p>虽然国内推广刚起步，但已受到单片机爱好者、从事单片机教学的教师、致力于单片机开发应用的科技工作者的青睐。</p><h2 id="获取-Proteus-安装包"><a href="#获取-Proteus-安装包" class="headerlink" title="获取 Proteus 安装包"></a>获取 Proteus 安装包</h2><p>我已将本篇所使用的安装包打包上传至百度云，<strong>扫描下方二维码关注「main工作室」，后台回复【<font color=red>0003</font>】即可免费获取分享链接。</strong></p><p><img src="https://s2.loli.net/2023/03/11/QCld53OxabyWFNh.png"></p><h2 id="安装-Proteus"><a href="#安装-Proteus" class="headerlink" title="安装 Proteus"></a>安装 Proteus</h2><p>1.找到并选择已下载好的“ <strong>Proteus 安装包</strong> ”的压缩包，并进行解压操作。</p><p><img src="https://s2.loli.net/2023/03/13/sXw6mbIESc9r2dp.png"></p><p>2.双击打开解压好的“ <strong>Proteus 安装包</strong> ”文件夹。</p><p><img src="https://s2.loli.net/2023/03/13/LVow7XABWnaNUzv.png"></p><p>3.选中“ <strong>proteus8.15.SP1.exe</strong> ”右键以管理员身份运行。</p><p><img src="https://s2.loli.net/2023/03/13/XTeVwD6E1dv8GpS.png"></p><p>4.点击“ <strong>Next&gt;</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/1grPFouE9CGR3Xd.png"></p><p>5.勾选同意协议，然后点击“ <strong>Next&gt;</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/1ZJkSEnpAw3YbNX.png"></p><p>6.选择使用本地安装的许可证密钥，然后点击“ <strong>Next&gt;</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/fVRu8UhwKDqdgiL.png"></p><p>7.点击“ <strong>Next&gt;</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/3oRx7qBmEtUKpFf.png"></p><p>8.点击“ <strong>Browse For Key File</strong> ”，找到安装包文件夹下的“ <strong>Fix</strong> ”文件夹，选择“ <strong>Licence2.lxk</strong> ”文件。</p><p><img src="https://s2.loli.net/2023/03/13/1Vbt6vewC7EAud5.png"></p><p>9.点击“ <strong>Install</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/M5QWLTgVuEyzO4f.png"></p><p>10.点击“ <strong>是(Y)</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/IX13nW6wZxcQGmL.png"></p><p>11.点击“ <strong>Close</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/2kgpMdoGranH96W.png"></p><p>12.首次安装无需导入之前配置，点击“ <strong>Next</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/vO2LEQ7oKz6xwSD.png"></p><p>13.点击“ <strong>Custom</strong> ”，进行自定义软件安装位置。</p><p><img src="https://s2.loli.net/2023/03/13/CQSAtY83jiFrEb5.png"></p><p>14.选择软件安装位置后，点击“ <strong>Next&gt;</strong> ”。</p><p>（图中为博主的软件安装位置，阅读文章的朋友请自主选择软件的安装位置）</p><p><img src="https://s2.loli.net/2023/03/13/1XtfASmG2KlZrwi.png"></p><p>15.点击“ <strong>Next&gt;</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/bNvC9EKeHqT6rOj.png"></p><p>16.点击“ <strong>Next&gt;</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/jTvLRVxzhD69Gty.png"></p><p>17.点击“ <strong>Install</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/V97MAI4ehwEB25D.png"></p><p>18.等待安装完成。</p><p><img src="https://s2.loli.net/2023/03/13/wDTedKRUbr4xjWc.png"></p><p>19.安装完成，点击“ <strong>Close</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/G5px2yZJMNYziBu.png"></p><h2 id="安装许可证密钥"><a href="#安装许可证密钥" class="headerlink" title="安装许可证密钥"></a>安装许可证密钥</h2><p>1.找到安装包文件夹下的“ <strong>Fix</strong> ”文件夹，双击打开“ <strong>Patch-Proteus-3.15-SP1-34318.0.exe</strong> ”文件。</p><p><img src="https://s2.loli.net/2023/03/13/WgOu4ZTfk9jsa1i.png"></p><p>2.确认显示路径与安装路径相同后，点击“ <strong>Start</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/13/zgxoyGRt72l59an.png"></p><p>3.如图所示，许可证密钥安装完成，点击右上角的“ <strong>×</strong> ”关闭即可。</p><p><img src="https://s2.loli.net/2023/03/13/dp3HihTGKk8w1N4.png"></p><p>4.返回桌面，双击打开软件，即可使用。</p><p><img src="https://s2.loli.net/2023/03/13/SbzU5Ispr3tQ9jX.png"></p><p><img src="https://s2.loli.net/2023/03/13/JwQ7EzxpFKfXCcZ.png"></p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>至此，Proteus 8.15 就安装完成啦，希望可以帮助到你。</p><p><strong>后续博主会持续更新基于 Proteus 的单片机仿真实验与项目，敬请期待！</strong></p><h2 id="免责声明"><a href="#免责声明" class="headerlink" title="免责声明"></a>免责声明</h2><p><strong>关于法律责任，「main工作室」郑重声明如下：</strong></p><ol><li><p>「main工作室」提供的所有下载文件均为网络共享资源，<strong>请于下载后的 24 小时内删除</strong>。仅限学习与技术交流，不得用于商业用途。如需商业用途，还请支持正版。</p></li><li><p>我们提供用户下载的所有内容均来自互联网。如有内容侵犯您的版权或其他利益，请编辑邮件并加以说明发送到我们的邮箱：<strong><a href="mailto:&#x6d;&#x61;&#x69;&#110;&#95;&#115;&#x74;&#117;&#x64;&#x69;&#x6f;&#64;&#x31;&#x36;&#x33;&#46;&#x63;&#x6f;&#x6d;">&#x6d;&#x61;&#x69;&#110;&#95;&#115;&#x74;&#117;&#x64;&#x69;&#x6f;&#64;&#x31;&#x36;&#x33;&#46;&#x63;&#x6f;&#x6d;</a></strong> ，我们会在收到消息的七个工作日内处理。</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 集成开发环境 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Dev-Cpp下载与安装（图文教程）</title>
+      <link href="/posts/aec4456a.html"/>
+      <url>/posts/aec4456a.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>C 语言是一门功能强大的专业化编程语言，深受专业程序员和业余编程爱好者的喜爱，同时 C 语言也是当今最流行的嵌入式开发语言，大多数嵌入式项目的开发都是用 C 语言来编写的。</p><p>本篇博主将带领大家下载与安装 C 语言的集成开发环境——Dev-Cpp。</p><span id="more"></span><h2 id="介绍-Dev-Cpp"><a href="#介绍-Dev-Cpp" class="headerlink" title="介绍 Dev-Cpp"></a>介绍 Dev-Cpp</h2><p>Dev-Cpp 是 Windows 环境下的一个适合于初学者使用的轻量级 C&#x2F;C++ 集成开发环境（IDE）。</p><p>Dev-Cpp 使用 MinGW&#x2F;GCC 编译器，遵循 C&#x2F;C++ 标准。开发环境包括多页面窗口、工程编辑器以及调试器等，在工程编辑器中集合了编辑器、编译器、连接程序和执行程序，提供高亮度语法显示的，以减少编辑错误，还有完善的调试功能，<strong>能够适合初学者与编程高手的不同需求，是学习 C 语言和 C++ 的首选开发工具</strong>。</p><p>看到这里是不是认定就是它啦，那你真的很有眼光耶。</p><p>既然认定是它啦，下面跟着我来把它安装到你的电脑上吧。</p><h2 id="下载安装包"><a href="#下载安装包" class="headerlink" title="下载安装包"></a>下载安装包</h2><p>对于 Dev-Cpp 安装包的获取，我提供了两种途径供读者朋友们自由选择，分别是百度云和 SourceForge，下载完成后，记得回来看安装教程呦。</p><h3 id="百度云"><a href="#百度云" class="headerlink" title="百度云"></a>百度云</h3><p>我已将本篇所使用的安装包打包上传至百度云，<strong>微信扫描下方二维码关注「main工作室」，后台回复【<font color=red>0004</font>】即可免费获取分享链接。</strong></p><p><img src="https://s2.loli.net/2023/03/11/QCld53OxabyWFNh.png" alt="公众号二维码_2"></p><h3 id="SourceForge"><a href="#SourceForge" class="headerlink" title="SourceForge"></a>SourceForge</h3><p>SourceForge 是全球最大的开放源代码软件开发平台和仓库。网站建立的宗旨是为开源软件提供一个存储、协作和发布的平台，拥有大量非常优秀的开源软件。</p><blockquote><p>SourceForge 官网下载链接 &gt;&gt; <a href="https://sourceforge.net/projects/orwelldevcpp/">点击跳转</a></p></blockquote><p>在该网页点击“ <strong>Download</strong> ”，等待几秒便会弹出下载提示，下载完成后，根据安装教程进行软件的安装即可。</p><p><img src="https://s2.loli.net/2023/03/11/CQnVPMNjDFci5Gz.png" alt="Dev-Cpp 下载与安装_图1"></p><h2 id="安装与配置环境"><a href="#安装与配置环境" class="headerlink" title="安装与配置环境"></a>安装与配置环境</h2><p>本文以 5.11 版本为例。</p><p>1.找到并选择已下载好的“ <strong>Dev-Cpp_5.11 安装包</strong> ”的压缩包，并进行解压操作。</p><p><img src="https://s2.loli.net/2023/03/11/B3sE1a2SMZYiQF8.png" alt="Dev-Cpp 下载与安装_图2"></p><p>2.双击打开解压好的“ <strong>Dev-Cpp_5.11 安装包</strong> ”文件夹。</p><p><img src="https://s2.loli.net/2023/03/11/dMyRvj8WluCQFL4.png" alt="Dev-Cpp 下载与安装_图3"></p><p>3.选中“ <strong>Dev-Cpp_5.11_TDM-GCC_4.9.2_Setup</strong> ”应用程序，右键以管理员身份运行。</p><p><img src="https://s2.loli.net/2023/03/11/g3F4lervc8O2Thj.png" alt="Dev-Cpp 下载与安装_图4"></p><p>4.点击“ <strong>OK</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/11/zQoGRkdsebE2flt.png" alt="Dev-Cpp 下载与安装_图5"></p><p>5.点击“ <strong>I Agree</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/11/evWhyPOJ1GjC3r4.png" alt="Dev-Cpp 下载与安装_图6"></p><p>6.点击“ <strong>Next&gt;</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/11/Ln2zFfb9X4simoe.png" alt="Dev-Cpp 下载与安装_图7"></p><p>7.点击“ <strong>Browse…</strong> ”，选择软件安装路径。</p><p><img src="https://s2.loli.net/2023/03/11/uZvBpCq8UjAInYy.png" alt="Dev-Cpp 下载与安装_图8"></p><p>8.点击“ <strong>Install</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/11/rTGIXalf3527VJK.png" alt="Dev-Cpp 下载与安装_图9"></p><p>9.正在安装中，请耐心等待。</p><p><img src="https://s2.loli.net/2023/03/11/6fyqSR1ErAQetoa.png" alt="Dev-Cpp 下载与安装_图10"></p><p>10.软件安装完成，点击“ <strong>Finish</strong> ”后进入软件配置环境的界面。</p><p><img src="https://s2.loli.net/2023/03/11/LpOn2RB1FfPjSe9.png" alt="Dev-Cpp 下载与安装_图11"></p><p>11.选择“ <strong>简体中文&#x2F;Chinese</strong> ”后，点击“ <strong>&gt;Next</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/11/ENz6u3FaGpSxHVi.png" alt="Dev-Cpp 下载与安装_图12"></p><p>12.点击“ <strong>&gt;Next</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/11/mfVW6ROTJCvhbZk.png" alt="Dev-Cpp 下载与安装_图13"></p><p>13.环境配置成功，点击“ <strong>OK</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/11/yCnPxo7a8EmXc1q.png" alt="Dev-Cpp 下载与安装_图14"></p><h2 id="小测试-Hello-World"><a href="#小测试-Hello-World" class="headerlink" title="小测试-Hello World!"></a>小测试-Hello World!</h2><p>至此，Dev-Cpp 就安装完成啦，接下来我们写一个经典的程序—— 输出 <code>Hello World!</code> ，来测试一下软件是否能正常使用。</p><p>1.打开 Dev-Cpp，在菜单栏中依次点击“ <strong>文件-&gt;新建-&gt;源代码</strong> ”。</p><p><img src="https://s2.loli.net/2023/03/11/4DR96adYlL3Cq8g.png" alt="Dev-Cpp 下载与安装_图15"></p><p>2.在新建的源代码文件中编写或 <code>Copy</code> 以下代码。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>3.可以看到文件“未命名1”前方有这个符号 <code>*</code>，这是在提示我们此文件未保存。</p><p><img src="https://s2.loli.net/2023/03/11/k1DKo3b2PjI5LFv.png" alt="Dev-Cpp 下载与安装_图16"></p><p>4.可以在菜单栏中依次点击“ <strong>文件-&gt;保存</strong> ”，或使用快捷键 <code>Ctrl+S</code> 进行文件的保存。</p><p><img src="https://s2.loli.net/2023/03/11/DHMXf6CVSo2pOzR.png" alt="Dev-Cpp 下载与安装_图17"></p><p>5.Dev-Cpp 默认保存类型 <code>.cpp</code> 是 C++ 的文件后缀名，因为我们编写的是 C 语言的程序，所以需要将保存类型改为 <code>.c</code>，然后点击保存即可。</p><p><img src="https://s2.loli.net/2023/03/11/HGiNJTPFxu7DOd4.png" alt="Dev-Cpp 下载与安装_图18"></p><p><img src="https://s2.loli.net/2023/03/11/eTzN5DopbVfPy7S.png" alt="Dev-Cpp 下载与安装_图19"></p><p><img src="https://s2.loli.net/2023/03/11/LqwXm9zaYvRJ8hF.png" alt="Dev-Cpp 下载与安装_图20"></p><p>6.点击彩色小方块（编译运行），程序就会编译后通过终端运行，我猜现在 <code>Hello World!</code> 应该已经出现在你的屏幕上了吧。</p><p><img src="https://s2.loli.net/2023/03/11/4Os2TIrVujQX6et.png" alt="Dev-Cpp 下载与安装_图21"></p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>至此，C 语言的开发环境已经配置完成啦。</p><p>如果你还未找到一套满意的 C 语言视频教程或书籍，可以<strong>微信扫描下方二维码关注「main工作室」，后台回复【<font color=red>0001</font>】即可获得我珍藏的 C 语言视频教程和推荐的 PDF 电子书</strong>。</p><p><img src="https://s2.loli.net/2023/03/11/QCld53OxabyWFNh.png" alt="公众号二维码_2"></p><h2 id="免责声明"><a href="#免责声明" class="headerlink" title="免责声明"></a>免责声明</h2><p><strong>关于法律责任，「main工作室」郑重声明如下：</strong></p><ol><li><p>「main工作室」提供的所有下载文件均为网络共享资源，<strong>请于下载后的 24 小时内删除</strong>。仅限学习与技术交流，不得用于商业用途。如需商业用途，还请支持正版。</p></li><li><p>我们提供用户下载的所有内容均来自互联网。如有内容侵犯您的版权或其他利益，请编辑邮件并加以说明发送到我们的邮箱：<strong><a href="mailto:&#109;&#97;&#x69;&#110;&#x5f;&#115;&#x74;&#117;&#100;&#x69;&#x6f;&#64;&#x31;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;">&#109;&#97;&#x69;&#110;&#x5f;&#115;&#x74;&#117;&#100;&#x69;&#x6f;&#64;&#x31;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;</a></strong> ，我们会在收到消息的七个工作日内处理。</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 集成开发环境 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo部署网站报错Error-Spawn-failed的解决方法</title>
+      <link href="/posts/dd4342dd.html"/>
+      <url>/posts/dd4342dd.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>今天在使用 Hexo 部署网站时报如下错误“Error: Spawn failed”，在这把解决方法记录一下。</p><span id="more"></span><h2 id="解决方案一"><a href="#解决方案一" class="headerlink" title="解决方案一"></a>解决方案一</h2><p>在站点目录下右键打开 Git Bash Here，依次输入如下命令。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rm</span> -rf .deploy_git/</span><br><span class="line"></span><br><span class="line">git config --global core.autocrlf <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><p>到这错误已经解决，如果依旧部署报错，请看解决方案二。</p><h2 id="解决方案二"><a href="#解决方案二" class="headerlink" title="解决方案二"></a>解决方案二</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rm</span> -rf .deploy_git/</span><br><span class="line"></span><br><span class="line"><span class="built_in">rm</span> -rf public/</span><br><span class="line"></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>至此，使用 Hexo 部署网站报“Error: Spawn failed”错误的问题就解决掉啦。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客站务 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中文技术文档写作规范系列07_参考链接</title>
+      <link href="/posts/a607eb8b.html"/>
+      <url>/posts/a607eb8b.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>本篇为中文技术文档写作规范系列07_参考链接篇。</p><span id="more"></span><ul><li><a href="https://www.taodocs.com/p-51273.html">产品手册中文写作规范</a>, by 华为</li><li><a href="http://guide.daocloud.io/dcs/%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83%E5%92%8C%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83-9153803.html">写作规范和格式规范</a>, by DaoCloud</li><li><a href="http://www.hitachi-tc.co.jp/company/thesis/thesis.pdf">技术写作技巧在日汉翻译中的应用</a>, by 刘方</li><li><a href="https://www.lengoo.de/documents/styleguides/lengoo_styleguide_ZH.pdf">简体中文规范指南</a>, by lengoo</li><li><a href="https://open.leancloud.cn/copywriting-style-guide.html">文档风格指南</a>, by LeanCloud</li><li><a href="https://docs.google.com/document/d/1R8lMCPf6zCD5KEA8ekZ5knK77iw9J-vJ6vEopPemqZM/edit">豌豆荚文案风格指南</a>, by 豌豆荚</li><li><a href="https://github.com/sparanoid/chinese-copywriting-guidelines">中文文案排版指北</a>, by sparanoid</li><li><a href="http://w3c.github.io/clreq/">中文排版需求</a>, by W3C</li><li><a href="http://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html">为什么文件名要小写？</a>, by 阮一峰</li><li><a href="https://developers.google.com/style/">Google Developer Documentation Style Guide</a>, by Google</li><li><a href="http://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/13/20150113091154536.pdf">出版物上数字用法的规定（国家标准GBT15835－2011）</a></li><li><a href="https://zh.wikisource.org/zh-hans/GB_3100-1993_%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D%E5%88%B6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8">GB 3100-1993 国际单位制及其应用</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 中文技术文档写作规范系列 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中文技术文档写作规范系列06_文档体系</title>
+      <link href="/posts/4cb58373.html"/>
+      <url>/posts/4cb58373.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>本篇为中文技术文档写作规范系列06_文档体系篇。</p><span id="more"></span><h2 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h2><p>软件手册是一部完整的书，建议采用下面的结构。</p><ul><li><strong>简介</strong>（Introduction）：[必备] [文件] 提供对产品和文档本身的总体的、扼要的说明</li><li><strong>快速上手</strong>（Getting Started）：[可选] [文件] 如何最快速地使用产品</li><li><strong>入门篇</strong>（Basics）：[必备] [目录] 又称“使用篇”，提供初级的使用教程<ul><li><strong>环境准备</strong>（Prerequisite）：[必备] [文件] 软件使用需要满足的前置条件</li><li><strong>安装</strong>（Installation）：[可选] [文件] 软件的安装方法</li><li><strong>设置</strong>（Configuration）：[必备] [文件] 软件的设置</li></ul></li><li><strong>进阶篇</strong>（Advanced)：[可选] [目录] 又称“开发篇”，提供中高级的开发教程</li><li><strong>API</strong>（Reference）：[可选] [目录|文件] 软件 API 的逐一介绍</li><li><strong>FAQ</strong>：[可选] [文件] 常见问题解答</li><li><strong>附录</strong>（Appendix）：[可选] [目录] 不属于教程本身、但对阅读教程有帮助的内容<ul><li><strong>Glossary</strong>：[可选] [文件] 名词解释</li><li><strong>Recipes</strong>：[可选] [文件] 最佳实践</li><li><strong>Troubleshooting</strong>：[可选] [文件] 故障处理</li><li><strong>ChangeLog</strong>：[可选] [文件] 版本说明</li><li><strong>Feedback</strong>：[可选] [文件] 反馈方式</li></ul></li></ul><p>下面是两个真实范例，可参考。</p><ul><li><a href="https://redux.js.org/introduction/getting-started">Redux 手册</a></li><li><a href="http://flight-manual.atom.io/">Atom 手册</a></li></ul><h2 id="文件名"><a href="#文件名" class="headerlink" title="文件名"></a>文件名</h2><p>文档的文件名不得含有空格。</p><p>文件名必须使用半角字符，不得使用全角字符。这也意味着，中文不能用于文件名。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：名词解释.md</span><br><span class="line"></span><br><span class="line">正确：glossary.md</span><br></pre></td></tr></table></figure><p>文件名建议只使用小写字母，不使用大写字母。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：TroubleShooting.md</span><br><span class="line"></span><br><span class="line">正确：troubleshooting.md</span><br></pre></td></tr></table></figure><p>为了醒目，某些说明文件的文件名，可以使用大写字母，比如<code>README</code>、<code>LICENSE</code>。</p><p>文件名包含多个单词时，单词之间建议使用半角的连词线（<code>-</code>）分隔。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">不佳：advanced_usage.md</span><br><span class="line"></span><br><span class="line">正确：advanced-usage.md</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 中文技术文档写作规范系列 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中文技术文档写作规范系列05_标点符号</title>
+      <link href="/posts/3607b034.html"/>
+      <url>/posts/3607b034.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>本篇为中文技术文档写作规范系列05_标点符号篇。</p><span id="more"></span><h2 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h2><p>（1）中文语句的标点符号，均应该采取全角符号，这样可以与全角文字保持视觉的一致。</p><p>（2）如果整句为英文，则该句使用英文&#x2F;半角标点。</p><p>（3）句号、问号、叹号、逗号、顿号、分号和冒号不得出现在一行之首。</p><p>（4）点号（句号、逗号、顿号、分号、冒号）不得出现在标题的末尾，而标号（引号、括号、破折号、省略号、书名号、着重号、间隔号、叹号、问号）可以。</p><h2 id="句号"><a href="#句号" class="headerlink" title="句号"></a>句号</h2><p>（1）中文语句的结尾处应该用全角句号（<code>。</code>）。</p><p>（2）句子末尾用括号加注时，句号应在括号之外。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：关于文件的输出，请参照第 1.3 节（见第 26 页。）</span><br><span class="line"></span><br><span class="line">正确：关于文件的输出，请参照第 1.3 节（见第 26 页）。</span><br></pre></td></tr></table></figure><h2 id="逗号"><a href="#逗号" class="headerlink" title="逗号"></a>逗号</h2><p>（1）逗号（<code>，</code>）表示句子内部的一般性停顿。</p><p>（2）注意避免“一逗到底”，即整个段落除了结尾，全部停顿都使用逗号。</p><h2 id="顿号"><a href="#顿号" class="headerlink" title="顿号"></a>顿号</h2><p>（1）句子内部的并列词，应该用全角顿号(<code>、</code>) 分隔，而不用逗号，即使并列词是英语也是如此。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：我最欣赏的科技公司有 Google, Facebook, 腾讯, 阿里和百度等。</span><br><span class="line"></span><br><span class="line">正确：我最欣赏的科技公司有 Google、Facebook、腾讯、阿里和百度等。</span><br></pre></td></tr></table></figure><p>（2）英文句子中，并列词语之间使用半角逗号（<code>,</code>）分隔。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">例句：Microsoft Office includes Word, Excel, PowerPoint, Outlook and other components.</span><br></pre></td></tr></table></figure><p>（3）中文句子内部的并列词，最后一个尽量使用（<code>和</code>）来连接，使句子读起来更加连贯，下面两个句子都可以，第二个更优。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">正确：我最欣赏的科技公司有 Google、Facebook、腾讯、阿里，以及百度等。</span><br><span class="line"></span><br><span class="line">正确：我最欣赏的科技公司有 Google、Facebook、腾讯、阿里和百度等。</span><br></pre></td></tr></table></figure><h2 id="分号"><a href="#分号" class="headerlink" title="分号"></a>分号</h2><p>（1）分号（<code>；</code>）表示复句内部并列分句之间的停顿。</p><h2 id="引号"><a href="#引号" class="headerlink" title="引号"></a>引号</h2><p>（1）引用时，应该使用全角双引号（<code>“ ”</code>），注意前后双引号不同。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">例句：许多人都认为客户服务的核心是“友好”和“专业”。</span><br></pre></td></tr></table></figure><p>（2）引号里面还要用引号时，外面一层用双引号，里面一层用单引号（<code>‘ ’</code>），注意前后单引号不同。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">例句：鲍勃解释道：“我要放音乐，可萨利说，‘不行！’。”</span><br></pre></td></tr></table></figure><h2 id="括号"><a href="#括号" class="headerlink" title="括号"></a>括号</h2><p>（1）补充说明时，使用全角圆括号（<code>（）</code>），括号前后不加空格。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">例句：请确认所有的连接（电缆和接插件）均安装牢固。</span><br></pre></td></tr></table></figure><p>（2）几种括号的中英文名称。</p><table><thead><tr><th></th><th align="center">英文</th><th align="center">中文</th></tr></thead><tbody><tr><td><code>&#123; &#125;</code></td><td align="center">braces 或 curly brackets</td><td align="center">大括号</td></tr><tr><td><code>[ ]</code></td><td align="center">square brackets 或 brackets</td><td align="center">方括号</td></tr><tr><td><code>&lt; &gt;</code></td><td align="center">angled brackets</td><td align="center">尖括号</td></tr><tr><td><code>( )</code></td><td align="center">parentheses</td><td align="center">圆括号</td></tr></tbody></table><h2 id="冒号"><a href="#冒号" class="headerlink" title="冒号"></a>冒号</h2><p>（1）全角冒号（<code>：</code>）常用在需要解释的词语后边，引出解释和说明。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">例句：请确认以下几项内容：时间、地点、活动名称和来宾数量。</span><br></pre></td></tr></table></figure><p>（2）表示时间时，应使用半角冒号（<code>:</code>）。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">例句：早上 8:00</span><br></pre></td></tr></table></figure><h2 id="省略号"><a href="#省略号" class="headerlink" title="省略号"></a>省略号</h2><p>（1）省略号（<code>⋯⋯</code>）表示语句未完、或者语气的不连续。</p><p>（2）省略号占两个汉字空间、包含六个省略点，不要使用<code>。。。</code>或<code>...</code>等非标准形式。</p><p>（3）省略号不应与“等”这个词一起使用。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">错误：我们为会餐准备了香蕉、苹果、梨…等各色水果。</span><br><span class="line"></span><br><span class="line">正确：我们为会餐准备了各色水果，有香蕉、苹果、梨⋯⋯</span><br><span class="line"></span><br><span class="line">正确：我们为会餐准备了香蕉、苹果、梨等各色水果。</span><br></pre></td></tr></table></figure><h2 id="感叹号"><a href="#感叹号" class="headerlink" title="感叹号"></a>感叹号</h2><p>（1）应该使用平静的语气叙述，尽量避免使用感叹号（<code>！</code>）。</p><p>（2）不得多个感叹号连用，比如<code>！！</code>和<code>!!!</code>。</p><h2 id="破折号"><a href="#破折号" class="headerlink" title="破折号"></a>破折号</h2><p>（1）破折号<code>————</code>一般用于进一步解释。</p><p>（2）破折号应占两个汉字的位置。如果破折号本身只占一个汉字的位置，那么前后应该留出一个半角空格。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">例句：直觉————尽管它并不总是可靠的————告诉我，这事可能出了些问题。</span><br><span class="line"></span><br><span class="line">例句：直觉 —— 尽管它并不总是可靠的 —— 告诉我，这事可能出了些问题。</span><br></pre></td></tr></table></figure><h2 id="连接号"><a href="#连接号" class="headerlink" title="连接号"></a>连接号</h2><p>（1）连接号用于连接两个类似的词。</p><p>（2）以下场合应该使用直线连接号（<code>-</code>），占一个半角字符的位置。</p><ul><li>两个名词的复合</li><li>图表编号</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">例句：氧化-还原反应</span><br><span class="line"></span><br><span class="line">例句：图 1-1</span><br></pre></td></tr></table></figure><p>（3）数值范围（例如日期、时间或数字）应该使用波浪连接号（<code>～</code>）或一字号（<code>—</code>），占一个全角字符的位置。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">例句：2009 年～2011 年</span><br></pre></td></tr></table></figure><p>注意，波浪连接号前后两个值都建议加上单位。</p><p>（4）波浪连接号也可以用汉字“至”代替。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">例句：周围温度：-20 °C 至 -10 °C</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 中文技术文档写作规范系列 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中文技术文档写作规范系列04_数值</title>
+      <link href="/posts/5a977d9e.html"/>
+      <url>/posts/5a977d9e.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>本篇为中文技术文档写作规范系列04_数值篇。</p><span id="more"></span><h2 id="半角数字"><a href="#半角数字" class="headerlink" title="半角数字"></a>半角数字</h2><p>阿拉伯数字一律使用半角形式，不得使用全角形式。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：这件商品的价格是１０００元。</span><br><span class="line"></span><br><span class="line">正确：这件商品的价格是 1000 元。</span><br></pre></td></tr></table></figure><h2 id="千分号"><a href="#千分号" class="headerlink" title="千分号"></a>千分号</h2><p>数值为千位以上，应添加千分号（半角逗号）。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">XXX 公司的实收资本为 ￥1,258,000 人民币。</span><br></pre></td></tr></table></figure><p>对于 4 位的数值，千分号是选用的，比如<code>1000</code>和<code>1,000</code>都可以接受。对于 4 位以上的数值，应添加千分号。</p><h2 id="货币"><a href="#货币" class="headerlink" title="货币"></a>货币</h2><p>货币应为阿拉伯数字，并在数字前写出货币符号，或在数字后写出货币中文名称。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$1,000</span><br><span class="line">1,000 美元</span><br></pre></td></tr></table></figure><p>英文的货币名称，建议参考国际标准 <a href="https://en.wikipedia.org/wiki/ISO_4217">ISO 4217</a>。</p><h2 id="数值范围"><a href="#数值范围" class="headerlink" title="数值范围"></a>数值范围</h2><p>表示数值范围时，用波浪线（<code>～</code>）或一字线（<code>—</code>）连接。参见《标点符号》一节的“连接号”部分。</p><p>带有单位或百分号时，两个数字建议都要加上单位或百分号。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">132 kg～234 kg</span><br><span class="line"></span><br><span class="line">67%～89%</span><br></pre></td></tr></table></figure><h2 id="变化程度的表示法"><a href="#变化程度的表示法" class="headerlink" title="变化程度的表示法"></a>变化程度的表示法</h2><p>数字的增加要使用“增加了”、“增加到”。“了”表示增量，“到”表示定量。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">增加到过去的两倍</span><br><span class="line">（过去为一，现在为二）</span><br><span class="line"></span><br><span class="line">增加了两倍</span><br><span class="line">（过去为一，现在为三）</span><br></pre></td></tr></table></figure><p>数字的减少要使用“降低了”、“降低到”。“了”表示增量，“到”表示定量。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">降低到百分之八十</span><br><span class="line">（定额是一百，现在是八十）</span><br><span class="line"></span><br><span class="line">降低了百分之八十</span><br><span class="line">（原来是一百，现在是二十）</span><br></pre></td></tr></table></figure><p>不能用“降低 N 倍”或“减少 N 倍”的表示法，要用“降低百分之几”或“减少百分之几”。因为减少（或降低）一倍表示数值原来为一百，现在等于零。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 中文技术文档写作规范系列 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中文技术文档写作规范系列03_段落</title>
+      <link href="/posts/8460bcb6.html"/>
+      <url>/posts/8460bcb6.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>本篇为中文技术文档写作规范系列03_段落篇。</p><span id="more"></span><h2 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h2><ul><li>一个段落只能有一个主题，或一个中心句子。</li><li>段落的中心句子放在段首，对全段内容进行概述。后面陈述的句子为中心句子服务。</li><li>一个段落的长度不能超过七行，最佳段落长度小于等于四行。</li><li>段落的句子语气要使用陈述和肯定语气，避免使用感叹语气。</li><li>段落之间使用一个空行隔开。</li><li>段落开头不要留出空白字符。</li></ul><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>引用第三方内容时，应注明出处。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">One man’s constant is another man’s variable. — Alan Perlis</span><br></pre></td></tr></table></figure><p>如果是全篇转载，请在全文开头显著位置注明作者和出处，并链接至原文。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">本文转载自 WikiQuote</span><br></pre></td></tr></table></figure><p>使用外部图片时，必须在图片下方或文末标明来源。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">本文部分图片来自 Wikipedia</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 中文技术文档写作规范系列 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中文技术文档写作规范系列02_文本</title>
+      <link href="/posts/4f223db1.html"/>
+      <url>/posts/4f223db1.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>本篇为中文技术文档写作规范系列02_文本篇。</p><span id="more"></span><h2 id="字间距"><a href="#字间距" class="headerlink" title="字间距"></a>字间距</h2><p>（1）全角中文字符与半角英文字符之间，应有一个半角空格。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：本文介绍如何快速启动Windows系统。</span><br><span class="line"></span><br><span class="line">正确：本文介绍如何快速启动 Windows 系统。</span><br></pre></td></tr></table></figure><p>（2）全角中文字符与半角阿拉伯数字之间，有没有半角空格都可，但必须保证风格统一，不能两种风格混杂。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">正确：2011年5月15日，我订购了5台笔记本电脑与10台平板电脑。</span><br><span class="line"></span><br><span class="line">正确：2011 年 5 月 15 日，我订购了 5 台笔记本电脑与 10 台平板电脑。</span><br></pre></td></tr></table></figure><p>半角的百分号，视同阿拉伯数字。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">正确：今年我国经济增长率是6.5%。</span><br><span class="line"></span><br><span class="line">正确：今年我国经济增长率是 6.5%。</span><br></pre></td></tr></table></figure><p>（3）英文单位若不翻译，单位前的阿拉伯数字与单位符号之间，应留出适当的空隙。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">例1：一部容量为 16 GB 的智能手机</span><br><span class="line"></span><br><span class="line">例2：1 h = 60 min = 3,600 s</span><br></pre></td></tr></table></figure><p>（4）半角英文字符和半角阿拉伯数字，与全角标点符号之间不留空格。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：他的电脑是 MacBook Air 。</span><br><span class="line"></span><br><span class="line">正确：他的电脑是 MacBook Air。</span><br></pre></td></tr></table></figure><h2 id="句子"><a href="#句子" class="headerlink" title="句子"></a>句子</h2><p>（1）避免使用长句。</p><p>不包含任何标点符号的单个句子，或者以逗号分隔的句子构件，长度尽量保持在 20 个字以内；20～29 个字的句子，可以接受；30～39 个字的句子，语义必须明确，才能接受；多于 40 个字的句子，任何情况下都不能接受。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：本产品适用于从由一台服务器进行动作控制的单一节点结构到由多台服务器进行动作控制的并行处理程序结构等多种体系结构。</span><br><span class="line"></span><br><span class="line">正确：本产品适用于多种体系结构。无论是由一台服务器（单一节点结构），还是由多台服务器（并行处理结构）进行动作控制，均可以使用本产品。</span><br></pre></td></tr></table></figure><p>逗号分割的长句，总长度不应该超过 100 字或者正文的 3 行。</p><p>（2）尽量使用简单句和并列句，避免使用复合句。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">并列句：他昨天生病了，没有参加会议。</span><br><span class="line"></span><br><span class="line">复合句：那个昨天生病的人没有参加会议。</span><br></pre></td></tr></table></figure><p>（3）同样一个意思，尽量使用肯定句表达，不使用否定句表达。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：请确认没有接通装置的电源。</span><br><span class="line"></span><br><span class="line">正确：请确认装置的电源已关闭。</span><br></pre></td></tr></table></figure><p>（4）避免使用双重否定句。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：没有删除权限的用户，不能删除此文件。</span><br><span class="line"></span><br><span class="line">正确：用户必须拥有删除权限，才能删除此文件。</span><br></pre></td></tr></table></figure><h2 id="写作风格"><a href="#写作风格" class="headerlink" title="写作风格"></a>写作风格</h2><p>（1）尽量不使用被动语态，改为使用主动语态。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：假如此软件尚未被安装，</span><br><span class="line"></span><br><span class="line">正确：假如尚未安装这个软件，</span><br></pre></td></tr></table></figure><p>（2）不使用非正式的语言风格。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：Lady Gaga 的演唱会真是酷毙了，从没看过这么给力的表演！！！</span><br><span class="line"></span><br><span class="line">正确：无法参加本次活动，我深感遗憾。</span><br></pre></td></tr></table></figure><p>（3）不使用冷僻、生造或者文言文的词语，而要使用现代汉语的常用表达方式。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：这是唯二的快速启动的方法。</span><br><span class="line"></span><br><span class="line">正确：这是仅有的两种快速启动的方法。</span><br></pre></td></tr></table></figure><p>（4）用对“的”、“地”、“得”。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">她露出了开心的笑容。</span><br><span class="line">（形容词＋的＋名词）</span><br><span class="line"></span><br><span class="line">她开心地笑了。</span><br><span class="line">（副词＋地＋动词）</span><br><span class="line"></span><br><span class="line">她笑得很开心。</span><br><span class="line">（动词＋得＋副词）</span><br></pre></td></tr></table></figure><p>（5）使用代词时（比如“其”、“该”、“此”、“这”等词），必须明确指代的内容，保证只有一个含义。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：从管理系统可以监视中继系统和受其直接控制的分配系统。</span><br><span class="line"></span><br><span class="line">正确：从管理系统可以监视两个系统：中继系统和受中继系统直接控制的分配系统。</span><br></pre></td></tr></table></figure><p>（6）名词前不要使用过多的形容词。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">错误：此设备的使用必须在接受过本公司举办的正式的设备培训的技师的指导下进行。</span><br><span class="line"></span><br><span class="line">正确：此设备必须在技师的指导下使用，且指导技师必须接受过由本公司举办的正式设备培训。</span><br></pre></td></tr></table></figure><h2 id="英文处理"><a href="#英文处理" class="headerlink" title="英文处理"></a>英文处理</h2><p>（1）英文原文如果使用了复数形式，翻译成中文时，应该将其还原为单数形式。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">英文：...information stored in random access memory (RAMs)...</span><br><span class="line"></span><br><span class="line">中文：⋯⋯存储在随机存取存储器（RAM）里的信息⋯⋯</span><br></pre></td></tr></table></figure><p>（2）外文缩写可以使用半角圆点(<code>.</code>)表示缩写。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">U.S.A.</span><br><span class="line">Apple, Inc.</span><br></pre></td></tr></table></figure><p>（3）表示中文时，英文省略号（<code>...</code>）应改为中文省略号（<code>⋯⋯</code>）。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">英文：5 minutes later...</span><br><span class="line"></span><br><span class="line">中文：5 分钟过去了⋯⋯</span><br></pre></td></tr></table></figure><p>（4）英文书名或电影名改用中文表达时，双引号应改为书名号。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">英文：He published an article entitled &quot;The Future of the Aviation&quot;.</span><br><span class="line"></span><br><span class="line">中文：他发表了一篇名为《航空业的未来》的文章。</span><br></pre></td></tr></table></figure><p>（5）第一次出现英文词汇时，在括号中给出中文标注。此后再次出现时，直接使用英文缩写即可。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">IOC（International Olympic Committee，国际奥林匹克委员会）。这样定义后，便可以直接使用“IOC”了。</span><br></pre></td></tr></table></figure><p>（6）专有名词中每个词第一个字母均应大写，非专有名词则不需要大写。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">“American Association of Physicists in Medicine”（美国医学物理学家协会）是专有名词，需要大写。</span><br><span class="line"></span><br><span class="line">“online transaction processing”（在线事务处理）不是专有名词，不应大写。</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 中文技术文档写作规范系列 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中文技术文档写作规范系列01_标题</title>
+      <link href="/posts/84e1df81.html"/>
+      <url>/posts/84e1df81.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>本篇为中文技术文档写作规范系列01_标题篇。</p><span id="more"></span><h2 id="层级"><a href="#层级" class="headerlink" title="层级"></a>层级</h2><p>标题分为四级。</p><ul><li>一级标题：文章的标题</li><li>二级标题：文章主要部分的大标题</li><li>三级标题：二级标题下面一级的小标题</li><li>四级标题：三级标题下面某一方面的小标题</li></ul><p>下面是示例。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 四级标题</span></span><br></pre></td></tr></table></figure><h2 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h2><p>（1）一级标题下，不能直接出现三级标题。</p><p>示例：下面的文章结构，缺少二级标题。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题</span></span><br></pre></td></tr></table></figure><p>（2）标题要避免孤立编号（即同级标题只有一个）。</p><p>示例：下面的文章结构，<code>二级标题 A</code>只包含一个三级标题，完全可以省略<code>三级标题 A</code>。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">## 二级标题 A</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题 A</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 二级标题 B</span></span><br></pre></td></tr></table></figure><p>（3）下级标题不重复上一级标题的名字。</p><p>示例：下面的文章结构，二级标题与下属的三级标题同名，建议避免。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">## 概述</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 概述</span></span><br></pre></td></tr></table></figure><p>（4）谨慎使用四级标题，尽量避免出现，保持层级的简单，防止出现过于复杂的章节。</p><p>如果三级标题下有并列性的内容，建议只使用项目列表（Item list）。</p><p>示例：下面的结构二要好于结构一。结构一适用的场景，主要是较长篇幅的内容。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">结构一</span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 四级标题 A</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 四级标题 B</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 四级标题 C</span></span><br><span class="line"></span><br><span class="line">结构二</span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"></span><br><span class="line"><span class="strong">**（1）A**</span></span><br><span class="line"></span><br><span class="line"><span class="strong">**（2）B**</span></span><br><span class="line"></span><br><span class="line"><span class="strong">**（3）C**</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 中文技术文档写作规范系列 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中文技术文档写作规范系列00_文章汇总</title>
+      <link href="/posts/a1ce5916.html"/>
+      <url>/posts/a1ce5916.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>无规矩不成方圆，中文技术文档的写作亦是如此，本篇文章为大家带来了一套中文写作规范。</p><span id="more"></span><p>仅供参考。</p><p>本文转自：<a href="https://github.com/ruanyf/document-style-guide">GitHub - ruanyf&#x2F;document-style-guide: 中文技术文档的写作规范</a></p><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ol><li><a href="https://main-studio.cn/posts/84e1df81.html">标题</a></li><li><a href="https://main-studio.cn/posts/4f223db1.html">文本</a></li><li><a href="https://main-studio.cn/posts/8460bcb6.html">段落</a></li><li><a href="https://main-studio.cn/posts/5a977d9e.html">数值</a></li><li><a href="https://main-studio.cn/posts/3607b034.html">标点符号</a></li><li><a href="https://main-studio.cn/posts/4cb58373.html">文档体系</a></li><li><a href="https://main-studio.cn/posts/a607eb8b.html">参考链接</a></li></ol><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>至此，中文技术文档写作规范就结束啦。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 中文技术文档写作规范系列 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用Hexo+Github搭建个人博客网站</title>
+      <link href="/posts/d4d24195.html"/>
+      <url>/posts/d4d24195.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>一直有这么一个想法，那就是在互联网上搭建一个属于自己的小空间，用来记录自己的成长经历、学习总结、个人所思等等。</p><p>在经过深入了解之后，感觉 Hexo + Github 搭建网站这种方式挺适合本小白的，便开始着手搭建我的个人博客，本篇文章用来记录网站搭建的过程。</p><p>以下操作均基于 windows 操作系统。</p><span id="more"></span><h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><p>安装 Hexo 相当简单，只需要先安装下列应用程序即可：</p><ul><li><a href="http://nodejs.org/">Node.js 官网</a></li><li><a href="http://git-scm.com/">Git 官网</a></li></ul><p>如果你的电脑中已经安装上述必备的应用程序，那么恭喜你！你可以直接前往安装 Hexo 的步骤。</p><p>如果你的电脑中尚未安装所需要的程序，请前往官网下载安装包后，根据安装教程完成安装。</p><ul><li><a href="http://nodejs.org/">Node.js 安装教程</a></li><li><a href="http://git-scm.com/">Git 安装教程</a></li></ul><h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><p>所有必备的应用程序安装完成后，便可以安装 Hexo 啦。</p><h3 id="使用-npm-安装-Hexo"><a href="#使用-npm-安装-Hexo" class="headerlink" title="使用 npm 安装 Hexo"></a>使用 npm 安装 Hexo</h3><p>在你认为合适的地方建了一个文件夹作为站点目录（注：文件夹名称自拟，路径中不要有中文），在站点目录下右键打开 Git Bash Here，输入如下命令即可安装。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>安装完成后，输入 <code>hexo -v</code> 可以检测是否安装成功。</p><h3 id="初始化-Hexo"><a href="#初始化-Hexo" class="headerlink" title="初始化 Hexo"></a>初始化 Hexo</h3><p>初始化 Hexo，在 Git Bash Here 中输入如下命令。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure><p>出现 INFO Start Blogging with Hexo! 即为安装成功。若安装不成功，重复输入 hexo init 进行初始化安装即可。</p><h3 id="安装所需组件"><a href="#安装所需组件" class="headerlink" title="安装所需组件"></a>安装所需组件</h3><p>Hexo 初始化完成后，安装所需要的组件，在 Git Bash Here 中输入 如下命令。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure><h3 id="启动服务器，预览本地博客"><a href="#启动服务器，预览本地博客" class="headerlink" title="启动服务器，预览本地博客"></a>启动服务器，预览本地博客</h3><h4 id="server"><a href="#server" class="headerlink" title="server"></a>server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>启动服务器，默认情况下，访问网址为： <code>http://localhost:4000/</code>，将此网址在浏览器中打开即可预览本地博客。</p><p>该命令可以简写为：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><p>预览结束后，按 <code>Ctrl+C</code> 即可停止服务器。</p><h3 id="Hexo-常用的命令"><a href="#Hexo-常用的命令" class="headerlink" title="Hexo 常用的命令"></a>Hexo 常用的命令</h3><p>包括上文启动服务器的命令 <code>server</code>，下面几条命令也会经常使用。</p><h4 id="clean"><a href="#clean" class="headerlink" title="clean"></a>clean</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)。</p><p>在某些情况（尤其是更换主题后），如果发现对站点的更改无论如何也不生效，可以运行该命令。</p><h4 id="generate"><a href="#generate" class="headerlink" title="generate"></a>generate</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>生成静态文件。</p><p>该命令可以简写为：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h4 id="deploy"><a href="#deploy" class="headerlink" title="deploy"></a>deploy</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>文件生成后立即部署网站。</p><p>该命令可以简写为：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>关于 Hexo 的更多命令，请前往：<a href="https://hexo.io/">https://hexo.io/</a>。</p><h2 id="配置-Github"><a href="#配置-Github" class="headerlink" title="配置 Github"></a>配置 Github</h2><h3 id="注册账号"><a href="#注册账号" class="headerlink" title="注册账号"></a>注册账号</h3><p>首先需要拥有一个 Github 账号，没有的可以注册一个，网上的注册教程挺多的，在这不在赘述。</p><ul><li><a href="%5Bhttp://github.com%5D(http://github.com/)">Github 官网</a></li></ul><h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h3><p>拥有账号后，接下来创建一个仓库，需要注意的点有：</p><ul><li>仓库名称需为：xxxx(本人 Gtihub 的用户名).github.io，此处 xxxx 一定要是本人 Gtihub 的用户名。</li><li>将仓库设置为公共仓库，即选择：Public。</li><li>点击：Create repository，创建即可。</li></ul><h3 id="配置-SSH-keys"><a href="#配置-SSH-keys" class="headerlink" title="配置 SSH keys"></a>配置 SSH keys</h3><p>可以根据教程进行配置。</p><ul><li><a href="">配置 SSH keys</a></li></ul><h2 id="配置-Hexo-与主题"><a href="#配置-Hexo-与主题" class="headerlink" title="配置 Hexo 与主题"></a>配置 Hexo 与主题</h2><h3 id="配置-Hexo"><a href="#配置-Hexo" class="headerlink" title="配置 Hexo"></a>配置 Hexo</h3><p>打开站点目录中的 <code>_config.yml</code> 文件，修改 <code>Deployment</code> 的内容（在文件末尾）。</p><p>修改如下：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">git@github.com:xxxx/xxxx.github.io.git</span><span class="comment"># xxxx 为本人 Gtihub 的用户名，两处分别更改</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure><p>repository 值是你在 Github 项目里的 https（右下角）</p><p>关于 Hexo 的更多配置，请前往：<a href="https://hexo.io/">https://hexo.io/</a>。</p><h3 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h3><p>我使用的主题是 <a href="https://theme-next.js.org/">NexT</a>。</p><ul><li><a href="http://theme-next.iissnan.com/getting-started.html">NexT 中文配置教程</a></li></ul><p>Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 <code>themes</code> 目录下， 然后修改配置文件的 <code>theme</code> 为 <code>next</code> 即可。</p><p>关于 Hexo 的更多主题，请前往：<a href="https://hexo.io/">https://hexo.io/</a>。</p><p>完成以上步骤后，你的网站就可以通过网址访问啦，访问网址为：<code>Github 用户名.github.io</code>。</p><h2 id="自定义域名"><a href="#自定义域名" class="headerlink" title="自定义域名"></a>自定义域名</h2><h3 id="申请域名"><a href="#申请域名" class="headerlink" title="申请域名"></a>申请域名</h3><p>想要自定义域名，首先你要拥有一个域名，没有的可以申请一个，推荐前往：阿里云、腾讯云等进行申请。</p><h3 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h3><p>在你申请域名的网站中，进入控制台找到域名，点击解析域名填入网址为：<code>Github 用户名.github.io</code> 即可。</p><h3 id="映射域名"><a href="#映射域名" class="headerlink" title="映射域名"></a>映射域名</h3><p>在你的 Github 仓库目录下新建一个 <code>CNAME</code> 文件，文件内容为需要映射的域名，即你上文中申请、解析的域名。</p><p>至此，就可以用自己的域名访问博客网站啦。</p><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><h3 id="问题-1"><a href="#问题-1" class="headerlink" title="问题 1"></a>问题 1</h3><p>问题：如何新建文章？</p><p>解决：在 <code>_post</code> 目录下新建 <code>.md</code> 文件，使用 Markdown 语法编写好后，在站点目录重新生成静态文件，部署到 Github 即可。</p><h3 id="问题-2"><a href="#问题-2" class="headerlink" title="问题 2"></a>问题 2</h3><p>问题：在配置文件里有分类、标签等新加的目录，但是点击网页访问却没有页面。</p><p>原因：<code>source</code> 目录下没有相应的文件。</p><p>解决：在博客的 <code>source</code> 目录下，新建相应目录。</p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>至此，本网站就搭建完成啦，后续会不定期对网站进行优化，敬请期待！</p><p>如果你有任何建议或疑问，欢迎在评论中提出！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客站务 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Keil系列教程01_Keil官网下载最新软件安装包</title>
+      <link href="/posts/862f9532.html"/>
+      <url>/posts/862f9532.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>本篇将介绍 Keil C51 和 MDK-ARM 两大集成开发环境的安装包下载方法，帮助大家安全快速的从官网下载安装包。</p><span id="more"></span><p>另外我编写了软件安装教程，可以在安装包下载完成后，跳转观看图文教程进行软件的安装与注册。</p><ul><li>待更新</li></ul><h2 id="Keil-官网"><a href="#Keil-官网" class="headerlink" title="Keil 官网"></a>Keil 官网</h2><blockquote><p>Keil 官网 &gt;&gt; <a href="https://www.keil.com/">点击跳转</a></p></blockquote><h2 id="Keil-C51-官网下载"><a href="#Keil-C51-官网下载" class="headerlink" title="Keil C51 官网下载"></a>Keil C51 官网下载</h2><p>1.进入 Keil 官网后，在左上方菜单栏中点击“ <strong>Download</strong> ”。</p><p><img src="https://s2.loli.net/2023/01/28/FyVnxY6jlH1i5qX.jpg"></p><p>2.点击“ <strong>Product Downloads</strong> ”。</p><p><img src="https://s2.loli.net/2023/01/28/fLj6Q4EWa8gBnxd.jpg"></p><p>3.点击“ <strong>C51</strong> ”。</p><p><img src="https://s2.loli.net/2023/01/28/DjKIyQcAvM68TH7.jpg"></p><p>4.根据文本框前的提示填写个人信息，然后点击“ <strong>Submit</strong> ”。</p><p><img src="https://s2.loli.net/2023/01/28/NqwQd6nYTiID89W.jpg"></p><p>5.点击“ <strong>C51V961.EXE</strong> ”（961 为版本号，会根据版本的升级而变动）。</p><p><img src="https://s2.loli.net/2023/01/28/OS7pxdGAyIDMBaX.jpg"></p><p>6.安装包下载中，等待下载完成即可。</p><p><img src="https://s2.loli.net/2023/01/28/x7mcTHKFBzesr9k.jpg"></p><h2 id="MDK-ARM-官网下载"><a href="#MDK-ARM-官网下载" class="headerlink" title="MDK-ARM 官网下载"></a>MDK-ARM 官网下载</h2><p>1.进入 Keil 官网后，在左上方菜单栏中点击“ <strong>Download</strong> ”。</p><p><img src="https://s2.loli.net/2023/01/28/FyVnxY6jlH1i5qX.jpg"></p><p>2.点击“ <strong>Product Downloads</strong> ”。</p><p><img src="https://s2.loli.net/2023/01/28/fLj6Q4EWa8gBnxd.jpg"></p><p>3.点击“ <strong>MDK-Arm</strong> ”。</p><p><img src="https://s2.loli.net/2023/01/28/iy59dmP1QRUtBNe.jpg"></p><p>4.根据文本框前的提示填写个人信息，然后点击“ <strong>Submit</strong> ”。</p><p><img src="https://s2.loli.net/2023/01/28/fzQACOJrHTyapuv.jpg"></p><p>5.点击“ <strong>MDK538A.EXE</strong> ”（538A 为版本号，会根据版本的升级而变动）。</p><p><img src="https://s2.loli.net/2023/01/28/DwcWHEMr73kZtTb.jpg"></p><p>6.安装包已下载，等待下载完成即可。</p><p><img src="https://s2.loli.net/2023/01/28/5YEMC84lrsLXutn.jpg"></p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>至此，Keil C51 和 MDK-ARM 安装包的官网下载方法就介绍完啦，希望能够帮助到你。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Keil系列教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Keil </tag>
+            
+            <tag> MDK-ARM </tag>
+            
+            <tag> C51 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Keil系列教程00_文章汇总</title>
+      <link href="/posts/9b8c7ec7.html"/>
+      <url>/posts/9b8c7ec7.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><span id="more"></span><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Keil系列教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Keil </tag>
+            
+            <tag> MDK-ARM </tag>
+            
+            <tag> C51 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一个专科生的2022年终总结——默默努力，成为更好的自己</title>
+      <link href="/posts/6ae7ac74.html"/>
+      <url>/posts/6ae7ac74.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p><p>目前在山东烟台一所专科院校读大二，这是我开通微信公众号后写的第一篇文章，文笔有所欠缺，还请读者朋友们多担待。</p><p>最近在博客园阅读了好多博主分享的关于 2022 年终总结的博客。我也想回顾总结一下我的 2022，在这一年中我成长了许多、也收获了许多，本篇就来聊聊关于我2022年的成长经历。</p><span id="more"></span><h2 id="年度成就"><a href="#年度成就" class="headerlink" title="年度成就"></a>年度成就</h2><ul><li>自学之路<ul><li>编程语言：C 语言</li><li>单片机：51、32、Arduino</li><li>PCB：Altium Designer 绘制 PCB</li></ul></li><li>开发项目<ul><li>使用 51 单片机开发了一个完整的电子秤项目</li></ul></li><li>暑假实习<ul><li>人生中的第一次实习工作</li></ul></li><li>获得奖项<ul><li>在第十四届山东省大学生科技节——2022 年山东省大学生智能制造大赛柔顺控制赛项中，荣获一等奖</li><li>在第十五届山东省职业院校技能大赛——电子产品设计及制作赛项中，荣获三等奖</li><li>先后获得校级奖学金 1000 元、国家励志奖学金 5000 元</li></ul></li><li>个人博客<ul><li>开通了微信公众号——「main工作室」</li></ul></li></ul><h2 id="成长经历"><a href="#成长经历" class="headerlink" title="成长经历"></a>成长经历</h2><h3 id="自学之路"><a href="#自学之路" class="headerlink" title="自学之路"></a>自学之路</h3><p>身处 b 站大学的我，说是自学应该不为过吧，由于对编程比较感兴趣，但所学的专业（电气自动化技术）中并没有开设相应的课程，所以我便跑到 b 站大学开始自学啦，接下来讲述一下我的自学之路。</p><h4 id="C-语言"><a href="#C-语言" class="headerlink" title="C 语言"></a>C 语言</h4><p>C 语言是在协会中学习的，在大一上学期我加入了电子创新协会，每天的晚自习和周末都会和我的小伙伴一起去协会学习（因为白天有好多课）。当时就像着了迷一样，走路、吃饭时都会想着 C 语言的知识，就连做梦也经常梦到自己为解出一道编程题而笑出声来。</p><h4 id="51-单片机"><a href="#51-单片机" class="headerlink" title="51 单片机"></a>51 单片机</h4><p>51 单片机是在大一寒假里学习的，在自己房间里把郭天祥老师的《10 天学会 51 单片机》教学视频来回看了 3~4 遍，用冻僵的手（北方的冬天好冷的）一遍遍的跟着敲代码，看着单片机展现出预期中的效果，心里就美滋滋的。</p><p>郭天祥老师讲的蛮不错的，在开始编程前，他都会详细的讲解需要用到的原理知识，在这时我就会把重点记在笔记上。最重要的是在视频中他手敲代码，而不是直接复制粘贴的那种，这样我可以很好的跟着他的思路去思考，思考如何根据需求来编写程序，因此提高了我的编程思维。</p><p>一个人在家自学，没有了学长学姐的帮助，还是挺困难的。这时就需要培养网上搜索知识或问题的能力，我在寒假学习中遇到的好多问题都是通过网上搜索的方式找到的解答，然后自己再把问题解决掉。</p><h4 id="32-单片机"><a href="#32-单片机" class="headerlink" title="32 单片机"></a>32 单片机</h4><p>32 单片机是从大二上学期至今一直都在学习的，一开始是用正点原子的战舰板看的配套视频，在将 STM 32 入门后，便转战到“电子产品设计及制作”的操作台上进行学习。</p><p>这时老师便开始教学啦，经常一对一的讲解知识，一讲就是一上午、一下午的。有时晚上写程序时出现 Bug，老师会远程带着我一遍遍的调试直到出现预期的效果。</p><p>在学习中有前辈带着的感觉真的超级棒，前辈在我心中就如同神一般的存在，在我遇到困难钻牛角尖时他稍微点拨一下，就可以使我走出困境，发现问题的关键然后将问题解决。</p><h4 id="Arduino-和绘制-PCB"><a href="#Arduino-和绘制-PCB" class="headerlink" title="Arduino 和绘制 PCB"></a>Arduino 和绘制 PCB</h4><p>学习 Arduino 是实习工作时需要用到它来设计制作电子产品，学习绘制 PCB 是想要做出一个拿得出手的产品，美化一下自己做的电子秤项目。</p><p>具体的细节下文会介绍，在这就不展开啦。</p><h3 id="开发项目"><a href="#开发项目" class="headerlink" title="开发项目"></a>开发项目</h3><p>在大一下学期，我接了一个做电子秤的毕业设计的订单，这也是我学习嵌入式以来做的第一个完整的项目。因为当时还没有学绘制 PCB，而且这个毕业设计允许使用模块拼接做出成品，所以在根据毕业设计的要求确定所需模块后，我便从淘宝上买回了所有需要用到的模块，开始了项目的开发。</p><p>好巧不巧，在项目开发到一半的时候，烟台突然爆发了疫情，学校紧急通知全体学生回宿舍上网课，还关停了大学生的命脉——快递站。我看这种情况很有可能会封好长时间，快递停了产品做出来也发不出去，因为怕耽误了客户的毕业设计，所以我主动联系客户和他说明了情况，终止了这次的合作。</p><p>但此项目并没有就此搁置，在老师的帮助下我完成了这一项目，由于是用模块拼装出来的产品，成品的整体外观不太美观，看着也不像一个能拿得出手的产品，所以我想将所有用到的模块整合起来做成一块电路板，于是利用被封在宿舍上网课的这段时间自学了 Altium Designer 绘制 PCB。</p><p>目前项目正在整理中，等整理完成后会发布相应的博客进行分享。</p><h3 id="暑假实习"><a href="#暑假实习" class="headerlink" title="暑假实习"></a>暑假实习</h3><p>大一暑假我经历了人生中第一次实习工作，是在一家培训机构里做老师，带着中小学的孩子制作以智能防疫为主题的电子创新产品，用于参加烟台市机器人创意比赛。</p><p>在这次的实习过程中，因为机构需要用 Arduino UNO 进行电子产品的制作，所以我自学了 Arduino UNO，然后把所学知识讲解给学生们，通过实验带着他们学习各种传感器模块，带领着 6 个队伍做出了 6 个不同的电子创新产品。</p><p>下面是参赛作品其中之一的演示视频：</p><iframe src="//player.bilibili.com/player.html?bvid=BV1WG4y1t7vM&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><blockquote><p>更多作品演示视频链接 &gt;&gt; <a href="https://www.bilibili.com/video/BV1WG4y1t7vM/">点击跳转</a></p></blockquote><p>经过这次实习我认识到了什么叫责任，身为一个老师的责任。</p><p>公司规定早晨八点上班，但我因为怕在讲课中出现差错，便要求自己七点十分必须到达公司，根据规划好的授课计划，把今天要讲的内容过一遍，要做的实验自己做一遍，实验中的程序代码自己敲一遍，确保在讲课时不会出现差错。在做完这些后差不多就要上课啦，然后就开始一天的授课工作。</p><p>机构的校长是上海交通大学毕业的，不仅学识渊博而且特别平易近人，经常和我一起讨论技术，和我交流人生规划，他说如果我专升本成功后一定要继续考研，只有这样才会形成质的变化，如果专升本没成功可以来找他，跟着他一起做项目，这我肯定答应呀，感觉抱大腿啦，哈哈。</p><h3 id="获得奖项"><a href="#获得奖项" class="headerlink" title="获得奖项"></a>获得奖项</h3><h4 id="山东省大学生科技节"><a href="#山东省大学生科技节" class="headerlink" title="山东省大学生科技节"></a>山东省大学生科技节</h4><p>在第十四届山东省大学生科技节——2022 年山东省大学生智能制造大赛柔顺控制赛项中，荣获一等奖。</p><p>比赛的任务是在一个丝杠组成的移动平台上面放一个烧杯，烧杯中注满水后在移动平台上来回移动 5 个回合。移动的总用时和移动结束后烧杯的重量作为比赛评定成绩的标准。</p><p>我在本次比赛中的任务是控制器软件的编写与调试。我将战舰开发板作为主控制器，利用伺服电机驱动器脉冲输入方式，通过主控制器的定时器输出不同频率的脉冲进行调速。在主控制器程序中使用了 S 加减速的算法来控制伺服电机，在保证速度的同时解决了平台移动到两边后，转换移动位置时烧杯中水外溢的问题。</p><p>下面是我参赛作品的演示视频：</p><iframe src="//player.bilibili.com/player.html?bvid=BV16v4y1y7xj&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><blockquote><p>作品演示视频链接 &gt;&gt; <a href="https://www.bilibili.com/video/BV16v4y1y7xj/">点击跳转</a></p></blockquote><h4 id="山东省职业院校技能大赛"><a href="#山东省职业院校技能大赛" class="headerlink" title="山东省职业院校技能大赛"></a>山东省职业院校技能大赛</h4><p>在第十五届山东省职业院校技能大赛——电子产品设计及制作赛项中，荣获三等奖。</p><p>比赛任务是在 6 小时内，按赛题要求，利用所发的技术资料、元器件及器材完成视觉识别分拣机器人控制器的装调和测试任务，进行 Cortex-M3 系列 STM32F103ZET6 的软件设计，完成该控制器的整机设计及制作。</p><p>我在本次比赛中担任队长，负责统筹协调好队员间的配合工作，把控好比赛时间。主要任务是控制器软件的编写与调试，还有配合队友完成对机器人控制器的装配工作。</p><p>因比赛为技能大赛，具体细节就不展开分享啦。</p><h4 id="奖学金"><a href="#奖学金" class="headerlink" title="奖学金"></a>奖学金</h4><p>在大二上学期先后获得校级奖学金 1000 元、国家励志奖学金 5000 元。</p><p>能获得奖学金真的挺高兴的，有谁会不爱钱钱呢，当然这也是对我努力学习的一种认可，以后我会更加努力学习的，加油！</p><h3 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h3><p>我在学习中遇到了难题就会去网上搜索，因为网上有好多前辈们留下的技术博客，由此我也产生了编写个人技术博客的想法。但迟迟没有行动，一方面是忙着知识的输入，另一方面是自己的文笔不太好，不知该如何进行表达。</p><p>现在我已经开通了自己的个人博客，准备将输入的知识思考总结后进行输出，我认为这是一个对所学知识很好的复盘。为了能让读者可以读懂我的文章，我也会仔细斟酌每一句话是否表达清晰，这个过程也能够提高我的表达能力。如果学习嵌入式的小白遇到问题，正好看到我写的博客，也可以帮助他学习知识、解决问题。</p><p>一举三得的事情，何乐而不为呢。</p><p>为了方便大家平时在公交、地铁、外出办事时也能用手机随时随地查看我的博客，我会将原创博客首发于微信公众号——「main工作室」。</p><p>同时，公众号内包含大量的学习资源，欢迎关注，一同交流学习，共同进步！</p><h2 id="立个-Flag"><a href="#立个-Flag" class="headerlink" title="立个 Flag"></a>立个 Flag</h2><ol><li>备考 2024 年专升本</li><li>恶补大学英语和高等数学</li><li>将之前学过的知识思考总结后，通过个人博客进行输出</li></ol><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>首先，感谢您能看到这里，这就是我 2022 年的成长经历。</p><p>2023 年我会继续努力奋斗，自学的道路虽然坎坷，但仍要默默努力，成为更好的自己。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 年终总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

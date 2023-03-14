@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-main-studio.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-main-studio.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-main-studio.png">
+  <link rel="mask-icon" href="/images/logo-main-studio.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"main-studio.cn","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="前言大家好，我是梁国庆。 在嵌入式学习的过程中少不了对电路的仿真，俗话说万事开头难，本篇将解决电路仿真的第一难关——如何在 Proteus 中新建工程。">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="Proteus系列教程01_新建工程">
+<meta property="og:url" content="https://main-studio.cn/posts/3d58bbbd.html">
+<meta property="og:site_name" content="main工作室">
+<meta property="og:description" content="前言大家好，我是梁国庆。 在嵌入式学习的过程中少不了对电路的仿真，俗话说万事开头难，本篇将解决电路仿真的第一难关——如何在 Proteus 中新建工程。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2023/03/14/a5jOLf8d7ycFSh3.png">
+<meta property="og:image" content="https://s2.loli.net/2023/03/14/SohN5YGf3t9lWv1.png">
+<meta property="og:image" content="https://s2.loli.net/2023/03/14/O6acQ372iZGPomK.png">
+<meta property="og:image" content="https://s2.loli.net/2023/03/14/XND9inZOtW4Vgyd.png">
+<meta property="og:image" content="https://s2.loli.net/2023/03/14/juBoqsPhcgeiWLZ.png">
+<meta property="og:image" content="https://s2.loli.net/2023/03/14/l7u6OySAXaR4Tio.png">
+<meta property="og:image" content="https://s2.loli.net/2023/03/14/k2Bl1sOgtRhnUTZ.png">
+<meta property="og:image" content="https://s2.loli.net/2023/03/14/uBd26rkZVYpnvD3.png">
+<meta property="article:published_time" content="2023-03-14T02:45:25.000Z">
+<meta property="article:modified_time" content="2023-03-14T23:31:19.766Z">
+<meta property="article:author" content="梁国庆">
+<meta property="article:tag" content="Proteus">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2023/03/14/a5jOLf8d7ycFSh3.png">
+
+
+<link rel="canonical" href="https://main-studio.cn/posts/3d58bbbd.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://main-studio.cn/posts/3d58bbbd.html","path":"posts/3d58bbbd.html","title":"Proteus系列教程01_新建工程"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Proteus系列教程01_新建工程 | main工作室</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?baaf8f5e99d3af098994109813f5f48e"></script>
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">main工作室</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">作者：梁国庆</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Proteus-8-15-%E7%89%88%E6%9C%AC"><span class="nav-number">2.</span> <span class="nav-text">Proteus 8.15 版本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Proteus-%E6%96%B0%E5%BB%BA%E5%B7%A5%E7%A8%8B"><span class="nav-number">3.</span> <span class="nav-text">Proteus 新建工程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%8E%E8%AE%B0"><span class="nav-number">4.</span> <span class="nav-text">后记</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="梁国庆"
+      src="/uploads/avatar.png">
+  <p class="site-author-name" itemprop="name">梁国庆</p>
+  <div class="site-description" itemprop="description">更多精彩内容，尽在微信公众号！</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">16</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/main-studio" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;main-studio" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/main_studio@163.com" title="E-Mail → main_studio@163.com" rel="noopener me"><i class="fa fa-envelope fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.zhihu.com/people/main-65-47" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;main-65-47" rel="noopener me" target="_blank"><i class="fab fa-zhihu fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://b23.tv/uYVVZso" title="哔哩哔哩 → https:&#x2F;&#x2F;b23.tv&#x2F;uYVVZso" rel="noopener me" target="_blank"><i class="fab fa-bilibili fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_nd.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+        <div class="sidebar-inner sidebar-post-related">
+          <div class="animated">
+              <div class="links-of-blogroll-title"><i class="fa fa-signs-post fa-fw"></i>
+    相关文章
+  </div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <a class="popular-posts-link" href="/posts/e7371c22.html" rel="bookmark">
+        <time class="popular-posts-time">2023-03-13</time>
+        <br>
+      最新版 Proteus 8.15 Professional 图文安装教程（附安装包）
+      </a>
+    </li>
+  </ul>
+
+          </div>
+        </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://main-studio.cn/posts/3d58bbbd.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.png">
+      <meta itemprop="name" content="梁国庆">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="main工作室">
+      <meta itemprop="description" content="更多精彩内容，尽在微信公众号！">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Proteus系列教程01_新建工程 | main工作室">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Proteus系列教程01_新建工程
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-03-14 10:45:25" itemprop="dateCreated datePublished" datetime="2023-03-14T10:45:25+08:00">2023-03-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-03-15 07:31:19" itemprop="dateModified" datetime="2023-03-15T07:31:19+08:00">2023-03-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Proteus%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">Proteus系列教程</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>大家好，我是梁国庆。</p>
+<p>在嵌入式学习的过程中少不了对电路的仿真，俗话说万事开头难，本篇将解决电路仿真的第一难关——如何在 Proteus 中新建工程。</p>
+<span id="more"></span>
+
+<h2 id="Proteus-8-15-版本"><a href="#Proteus-8-15-版本" class="headerlink" title="Proteus 8.15 版本"></a>Proteus 8.15 版本</h2><p>本套系列教程基于 Proteus 8.15 版本，为了方便大家的学习，博主编写了软件的图文安装教程，请点击下方链接跳转进行安装。</p>
+<blockquote>
+<p>Proteus 8.15 图文安装教程 &gt;&gt; <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/pG8UpBzyEXkDS0r3fkTgRg">点击跳转</a></p>
+</blockquote>
+<h2 id="Proteus-新建工程"><a href="#Proteus-新建工程" class="headerlink" title="Proteus 新建工程"></a>Proteus 新建工程</h2><p>1.双击 Proteus 图标，进入软件界面。</p>
+<p><img src="https://s2.loli.net/2023/03/14/a5jOLf8d7ycFSh3.png" alt="Proteus 中新建工程_图1"></p>
+<p>2.在软件界面的菜单栏中找到并点击“ <strong>File</strong> ”，在下拉框中找到并点击“ <strong>New Project</strong> ”。</p>
+<p><img src="https://s2.loli.net/2023/03/14/SohN5YGf3t9lWv1.png" alt="Proteus 中新建工程_图2"></p>
+<p>3.在“ <strong>Name</strong> ”文本框中输入工程的名称，点击“ <strong>Browse</strong> ”选择工程文件的保存路径，最后点击“ <strong>Next</strong> ”。</p>
+<p><img src="https://s2.loli.net/2023/03/14/O6acQ372iZGPomK.png" alt="Proteus 中新建工程_图3"></p>
+<p>4.点击“ <strong>Create a schematic from the selected template.</strong> ”，点击“ <strong>DEFAULT</strong> ”，点击“ <strong>Next</strong> ”。</p>
+<p><img src="https://s2.loli.net/2023/03/14/XND9inZOtW4Vgyd.png" alt="Proteus 中新建工程_图4"></p>
+<p>5.点击“ <strong>Do not create a PCB layout.</strong> ”，点击“ <strong>Next</strong> ”。</p>
+<p><img src="https://s2.loli.net/2023/03/14/juBoqsPhcgeiWLZ.png" alt="Proteus 中新建工程_图5"></p>
+<p>6.工程固件的选择，如果是纯粹的数字电路或者模拟电路的仿真，建议如下图选择“ <strong>No Firmware Project</strong> ”；如果是单片机项目的仿真，只使用外部的程序编辑器，比如 Keil-C51、MDK-ARM 之类的，同样建议选择“ <strong>No Firmware Project</strong> ”，然后点击“ <strong>Next</strong> ”。</p>
+<p><img src="https://s2.loli.net/2023/03/14/l7u6OySAXaR4Tio.png" alt="Proteus 中新建工程_图6"></p>
+<p>7.点击“ <strong>Finish</strong> ”。</p>
+<p><img src="https://s2.loli.net/2023/03/14/k2Bl1sOgtRhnUTZ.png" alt="Proteus 中新建工程_图7"></p>
+<p>8.工程创建完成，后面根据需要放置元器件就可以啦。</p>
+<p><img src="https://s2.loli.net/2023/03/14/uBd26rkZVYpnvD3.png" alt="Proteus 中新建工程_图8"></p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>至此，在 Proteus 中新建工程就完成啦。</p>
+<p><strong>后续我会持续更新 Proteus 相关教程，爱学习的你一定不要错过哦。</strong></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>Buy me a coffee</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.png" alt="梁国庆 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.png" alt="梁国庆 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>梁国庆
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://main-studio.cn/posts/3d58bbbd.html" title="Proteus系列教程01_新建工程">https://main-studio.cn/posts/3d58bbbd.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-ND</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/Proteus/" rel="tag"><i class="fa fa-tag"></i> Proteus</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/posts/e7371c22.html" rel="prev" title="最新版 Proteus 8.15 Professional 图文安装教程（附安装包）">
+                  <i class="fa fa-chevron-left"></i> 最新版 Proteus 8.15 Professional 图文安装教程（附安装包）
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-blog"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">梁国庆的个人博客</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+<!-- <br /> -->
+<!-- 网站运行时间的设置 -->
+<span id="timeDate">载入天数...</span>
+<!-- <span id="times">载入时分秒...</span> -->
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("2/21/2023 8:52:09");//此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); 
+        if(String(snum).length ==1 ){snum = "0" + snum;}
+        // var times = document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "+hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+setInterval("createtime()",250);
+</script>
+
+    </div>
+  </footer>
+
+  
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/main-studio" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
